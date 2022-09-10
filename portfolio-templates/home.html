@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font   Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>My Portfolio Template</title>
+</head>
+
+<body>
+    <header class="header" id="headTop">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">M<b>P</b></a>
+                <!-- <img src="" alt=""> -->
+            </div>
+            <ul class="nav-items" id="nav">
+                <li class="item">
+                    <a href="#">Home</a>
+                </li>
+                <li class="item">
+                    <a href="#">About</a>
+                </li>
+                <li class="item">
+                    <a href="#">Blogs</a>
+                </li>
+                <li class="item">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="burger" onclick="togleNav();">
+                <div class="line" id="l1"></div>
+                <div class="line" id="l2"></div>
+                <div class="line" id="l3"></div>
+            </div>
+        </div>
+    </header>
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel_image active">
+                <img src="https://images.unsplash.com/photo-1440186170739-681f007fc4d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="Landscape 1">
+            </div>
+            <div class="carousel_image">
+                <img src="https://images.unsplash.com/photo-1504193902866-27cfb5aafcc8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                    alt="Landscape 1">
+            </div>
+            <div class="carousel_image">
+                <img src="https://images.unsplash.com/photo-1604537466573-5e94508fd243?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+                    alt="Landscape 1">
+            </div>
+        </div>
+        <div class="btn-container">
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+        <div class="carousel-text">
+            <div class="big-text">
+                <p>Hello I'm <b>Mrigendra Prasad</b>, a self-taught <b>Full-stack Web Developer</b></p>
+            </div>
+            <div class="content-text">
+                <p>Highly motivated, self-starting developer seeking to launch a career building web applications and
+                    services. Familiar
+                    with development and deployment process for many web-based technologies. Design and implement
+                    frontend interfaces and
+                    backend services to assemble web applications based on user stories.</p>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="about">
+            <div class="heading">
+                <p>About Me</p>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam omnis ut soluta aliquid eveniet magnam
+                est, voluptatem
+                ab ea cum perspiciatis distinctio, nobis, enim fugiat numquam. Fuga rem sit totam officia non? Eveniet
+                sunt enim,
+                velit sed quidem, eius neque aspernatur officia mollitia possimus dicta inventore maiores quia! Debitis
+                nulla minima
+                recusandae, corporis labore accusantium ipsam eligendi modi autem ab itaque eveniet dolore quaerat earum
+                dolores
+                unde eaque mollitia repellat quibusdam iusto saepe maiores quas minus temporibus! Porro dolor minima
+                doloremque, nam
+                sint quibusdam ratione vitae delectus modi consequuntur, natus odio nostrum exercitationem. Perferendis
+                asperiores
+                in, animi delectus non voluptas.</p>
+            <div class="social-links">
+                <div class="links">
+                    <a href="https://twitter.com/Mrkoder108" target="_blank" class="link t"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/justKoder" target="_blank" class="link g"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a href="https://codepen.io/justkoder" target="_blank" class="link c"><i
+                            class="fa-brands fa-codepen"></i></a>
+                    <a href="https://www.linkedin.com/in/mrigendra-prasad-43763b226/" target="_blank" class="link l"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <button class="btn-email">Email Me</button>
+            </div>
+            <div class="skills">
+                <div class="bar">
+                    <div class="skill">HTML</div>
+                    <div class="progrss">
+                        <div class="p70">70%</div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="skill">CSS</div>
+                    <div class="progrss">
+                        <div class="p65">65%</div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="skill">JavaScript</div>
+                    <div class="progrss">
+                        <div class="p70">70%</div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="skill">React.js</div>
+                    <div class="progrss">
+                        <div class="p70">70%</div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="skill">Python</div>
+                    <div class="progrss">
+                        <div class="p65">65%</div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="skill">Django</div>
+                    <div class="progrss">
+                        <div class="p80">80%</div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="skill">Bootstrap</div>
+                    <div class="progrss">
+                        <div class="p70">70%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <div class="heading">
+                <p class="back">WORKS</p>
+                <p class="front">
+                    <b>MY</b> PORTFOLIO
+                </p>
+            </div>
+            <div class="project-cards">
+                <div class="card">
+                    <div class="image">
+                        <img src="https://images.unsplash.com/photo-1529911194209-8578109840df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                    </div>
+                    <div class="card-text">
+                        <h1>Simple Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit voluptate nisi pariatur,
+                            officia
+                            veniam quidem!</p>
+                        <button class="btn btn-green"><a href="#">Click Here</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://images.unsplash.com/photo-1545912452-8aea7e25a3d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                    </div>
+                    <div class="card-text">
+                        <h1>Simple Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit voluptate nisi pariatur,
+                            officia
+                            veniam quidem!</p>
+                        <button class="btn btn-green"><a href="#">Click Here</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://images.unsplash.com/photo-1492175742197-ed20dc5a6bed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                    </div>
+                    <div class="card-text">
+                        <h1>Simple Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit voluptate nisi pariatur,
+                            officia
+                            veniam quidem!</p>
+                        <button class="btn btn-green"><a href="#">Click Here</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://images.unsplash.com/photo-1515138692129-197a2c608cfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                    </div>
+                    <div class="card-text">
+                        <h1>Simple Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit voluptate nisi pariatur,
+                            officia
+                            veniam quidem!</p>
+                        <button class="btn btn-green"><a href="#">Click Here</a></button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="image">
+                        <img src="https://images.unsplash.com/photo-1616501470925-5aa85c62679e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                    </div>
+                    <div class="card-text">
+                        <h1>Simple Heading</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit voluptate nisi pariatur,
+                            officia
+                            veniam quidem!</p>
+                        <button class="btn btn-green"><a href="#">Click Here</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+
+    </script>
+    <script src="js/carousel.js"></script>
+    <script src="js/nav.js"></script>
+</body>
+
+</html>
